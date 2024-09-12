@@ -1,0 +1,14 @@
+---
+title: "My Week 2 STA304"
+author: "Xinxiang Gao"
+# date: format(Sys.time(), "%d %B %Y")
+abstract: "This is an abstract of what I learned in this class."
+format: html
+bibliography: bibliography.bib
+---
+
+Hi, this is Xinxiang's website. I am in group 43.
+
+First of all, I learned quarto docs (qmd) files that we can use markdown and code at the same time. Moreover, qmd files are versatile since it can handle lots of languages, like [@citeR], python, and so on, which makes "bilingual" coders comfortable with ipynb and rmd files happier.
+
+Moreover, in @tellingstories, our professor elaborates on the usage of quarto files. Make sure to take a look if interested!

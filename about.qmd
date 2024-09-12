@@ -1,11 +1,11 @@
+
 ---
-title: "My document"
-author: "Xinxiang Gao"
-date: format(Sys.time(), "%d %B %Y")
-abstract: "This is my abstract."
+title: "A demo in R"
+# date: format(Sys.time(), "%d %B %Y")
 format: html
-bibliography: bibliography.bib
 ---
+
+Here goes an R chunk.
 
 ```{r, warning=FALSE}
 library(tidyverse)
@@ -17,7 +17,3 @@ DoctorVisits |>
   ggplot(aes(x = illness)) +
   geom_histogram(stat = "count")
 ```
-
-@citeR
-
-[@tellingstories]
