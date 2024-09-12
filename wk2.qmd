@@ -1,0 +1,23 @@
+---
+title: "My document"
+author: "Xinxiang Gao"
+date: format(Sys.time(), "%d %B %Y")
+abstract: "This is my abstract."
+format: html
+bibliography: bibliography.bib
+---
+
+```{r, warning=FALSE}
+library(tidyverse)
+library(AER)
+
+data("DoctorVisits", package = "AER")
+
+DoctorVisits |>
+  ggplot(aes(x = illness)) +
+  geom_histogram(stat = "count")
+```
+
+@citeR
+
+[@tellingstories]
